@@ -1,0 +1,384 @@
+/*.menu li a:hover{
+    background: #ef;
+}*/
+.body {
+    background-color: #e8e8e8;
+    margin: 0;
+}
+/*#check1:checked ~ .Home{
+    display: block !important;
+}
+.secciones div{
+    display: none;
+    transition: all 100ms ease;
+}
+#check1, #check2, #check3{
+    display: none;
+}
+#check2:checked ~ #Productos{
+    display: block
+}
+#check3:checked ~ #Contacto{
+    display: block;
+}*/
+.contenedor {
+    width: 1200px; 
+    height: 500px;
+}
+.caja1 {
+    width: 500px; 
+    height: 500px; 
+    float: right; 
+    text-align: center;
+}
+.caja2 {
+    width: 500px; 
+    height: 500px; 
+    float: right; 
+    text-align: center
+}  
+/********** pie de paguina*********/
+#footer-call-to-action {
+    background: #282f49;
+    padding: 2em 0;
+    color: white;
+ }
+#footer-call-to-action p {
+    margin: 0 auto;
+}
+#footer-bottom {
+    display: table;
+}
+#footer-bottom .copyleft {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+}
+/*Estilos menu8*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #b96e48;
+    height: 80px;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    position: relative;
+    top: -16px;
+    height: 71px;
+    width: 65px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li label{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline;
+}
+li a.active, li a:hover{
+    background: #FFFFFF;
+    transition: .5s;
+    color: #b96e48;
+    text-decoration: none;
+}
+li label.active, li label:hover{
+    background: #FFFFFF;
+    transition: .5s;
+    color: #b96e48;
+    text-decoration: none;
+    display: inline;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+.fondo{
+    width: 100%;
+    border-top: 8px solid #b96e48;
+}
+.container{
+    background: #b96e48;
+}
+.default{
+    margin-left: 64px;
+    margin-bottom: 20px;
+}
+.imagenesTabla1{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.imagenesTabla2{
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.redbor {
+background: #ffffff;
+color: #b96e48;
+justify-content: center;
+}
+#info{
+    background-color: #b96e48;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    height: 333px;
+}
+#info .contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pa{
+    padding-left: 160px !important;
+    padding-right: 160px !important;
+    padding-top: 50px !important;
+}
+.info-pet{
+    height: 50%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #b96e48;
+    justify-content: center;
+}
+.contenedorIn{
+    padding-top: 70px;
+}
+.redbor{
+    text-align: center;
+    font-size: 45px;
+    justify-content: center;
+}
+.bored{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px 40px 0px 40px;
+}
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+.slider li{
+    width: 60%;
+    height: 500px;
+    list-style: none;
+}
+.slider img{
+    width: 60%;
+}
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    50%{margin-left: 0%;}
+
+    55%{margin-left: -220%;}
+    100%{margin-left: -220%;}
+}
+.footer{
+    padding: 1% 8% 0px 8%; 
+}
+h2{
+    text-align: center;
+    color: #b96e48;
+}
+h3{
+    color: #b96e48;
+}
+p{
+    font-size: 18px;
+}
+.titlefooter{
+    font-size: 20px;
+}
+.textInfoDiv{
+    padding: 0px 20px;
+}
+.titlesiguenos{
+    text-decoration: none;
+    text-align: center;
+    color: #b96e48;
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.textFoo{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.imgfooter{
+    width: 25px;
+    height: 25px;
+}
+.footertable{
+    margin-left: 95px;
+}
+.br{
+    background-color: #b96e48;
+
+}
+/*Modal*/
+a{
+    text-decoration: none;
+}
+.videoModal{
+    margin-left: 1px;
+    width: 100%;
+    padding: 0px 40px 40px 40px
+}
+.modalHMTL{
+    width: 100%;
+    height: 105%;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    animation: modal 2s 3s;
+    animation-fill-mode: forwards;
+    display: none;
+    /*visibility: hidden;
+    opacity: 0;*/
+}
+.contenido{
+    margin: auto;
+    width: 60%;
+    height: 70%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 7%
+}
+#cerrar{
+    display: none;
+}
+#cerrar +label{
+    position: fixed;
+    color:#FFFFFF;
+    font-size: 25px;
+    z-index: 50;
+    background-color: #b96e48;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 16%;
+
+    animation: modal 2s 3s;
+    animation-fill-mode: forwards;
+    display: none;
+    /*visibility: hidden;
+    opacity: 0;*/
+}
+#btn-cerrar{
+    text-align: center;
+}
+
+
+/*li a.active modal{
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}*/
+/*@keyframes modal{
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}*/
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #9e5418;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
